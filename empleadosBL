@@ -1,0 +1,63 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.pmp.mavenprojectjosselyn.empleadosBL;
+
+/**
+ *
+ * @author 15613
+ */
+public class empleadosBL {
+    int ID;
+    String Nombre, Correo,IDEmpleado, Celular,CodigoPostal;
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getNombreCompleto() {
+        return Nombre;
+    }
+
+    public void setNombreCompleto(String NombreCompleto) {
+        this.Nombre = NombreCompleto;
+    }
+
+    public String getCorreo() {
+        return Correo;
+    }
+
+    public void setCorreo(String Correo) {
+        this.Correo = Correo;
+    }
+
+    public String getIDEmpleado() {
+        return IDEmpleado;
+    }
+
+    public void setIDEmpleado(String IDEmpleado) {
+        this.IDEmpleado = IDEmpleado;
+    }
+
+    public String getCelular() {
+        return Celular;
+    }
+
+    public void setCelular(String Celular) {
+        this.Celular = Celular;
+    }
+
+    public String getCodigoPostal() {
+        return CodigoPostal;
+    }
+
+    public void setCodigoPostal(String CodigoPostal) {
+        this.CodigoPostal = CodigoPostal;
+    }
+    
+}
